@@ -32,6 +32,8 @@ class Circle:
         return self.center
     def get_radius(self):
         return self.radius
+    def get_area(self):
+        return self.area
 
 
 def main():
