@@ -33,7 +33,9 @@ class Circle:
     def get_radius(self):
         return self.radius
 
- З
+
+
+
 def main():
     p = Point(2, 2)
 
