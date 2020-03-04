@@ -20,7 +20,7 @@ class Circle:
         self.radius = radius
         self.center = center
 
-    def perimetr(self):
+    def perimetr(self): 
         return 2*math.pi*self.radius
 
     def area(self):
@@ -34,6 +34,8 @@ class Circle:
         return self.radius
     def get_area(self):
         return self.area
+    def get_perimetr(self):
+        return self.perimetr
 
 
 
